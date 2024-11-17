@@ -9,8 +9,8 @@ void usage(char *program_name){
 int main(int argc, char *argv[]){
     int i, count;
 
-     if(argc < 3) 
-        usage(argv[0]); 
+     //if(argc < 3) 
+        //usage(argv[0]); 
 
     count = atoi(argv[2]); 
     printf("Repeating %d times..\n", count);
