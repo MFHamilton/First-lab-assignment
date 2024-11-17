@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
     char string[10];
@@ -14,5 +15,5 @@ int main(){
 
     // Example of unary address and dereference operators
     printf("variable A is at address: %08x\n", &A);
-    
+
 }
